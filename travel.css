@@ -914,6 +914,13 @@ nav ul li:hover {
         margin: 20px 0 20px 5px;
         font-family: 'Volkhov', serif;
     }
+    .content .left button:nth-child(4) {
+        font-size: 13px;
+        padding: 15px 20px;
+    }
+    .content .left a span {
+        font-size: 13px;
+    }
 
     .dicore {
         width: 100%;
@@ -929,14 +936,14 @@ nav ul li:hover {
     .face-two {
         width: 100%;
         max-width: 1440px;
-        padding-top: 95px;
+        padding-top: 0;
     }
     .face-two .starts {
         transform: rotate(270deg);
         max-width: 24%;
         position: absolute;
         right: 80%;
-        top: 74px;
+        top: 0;
     }
     .face-two .bx .Rectangle {
         width: 90px;
@@ -965,7 +972,7 @@ nav ul li:hover {
     }
     .face-two .content {
         width: 100%;
-        padding: 50px 5% 0;
+        padding: 0 5%;
         display: flex;
         flex-direction: column;
     }
@@ -981,7 +988,7 @@ nav ul li:hover {
         align-items: center;
         background-color: white;
         border-radius: 40px;
-        margin: 43px 2%;
+        margin: 43px 0;
         padding: 10px 30px 40px;
     }
     .face-two .content .boxs-2 .bx {
@@ -991,7 +998,7 @@ nav ul li:hover {
         align-items: center;
         background-color: white;
         border-radius: 40px;
-        margin: 43px 2%;
+        margin: 43px 0;
         padding: 10px 30px 40px;
     }
     .face-two .content .box {
@@ -1019,6 +1026,15 @@ nav ul li:hover {
     .face-three .cards {
         width: 100%;
         padding: 0 10% 50px;
+    }
+    .face-three .cards h3:nth-child(2) {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Volkhov', serif;
+        padding: 0 0 20px;
+        text-transform: capitalize;
+        width: 90%;
+        color: black;
     }
     .face-three .cards .card p {
         display: flex;
@@ -1106,6 +1122,9 @@ nav ul li:hover {
         flex-direction: column;
         padding: 0 7% 0;
         margin: 0;
+    }
+    .comments .texts h3 {
+        font-size: 40px;
     }
     .comments .texts img:nth-child(3) {
         position: relative;

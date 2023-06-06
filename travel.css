@@ -1310,6 +1310,7 @@ nav ul li:hover {
     }
     .footer .contact-us .apps span p {
         text-align: left;
+        font-size: 14px;
     }
     .end {
         padding: 0 0 80px;

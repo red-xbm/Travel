@@ -897,22 +897,29 @@ nav ul li:hover {
     .content .left {
         width: 100%;
         position: relative;
+        margin-top: 200px;
     }
     .content .left p:first-child {
         width: 100%;
-        font-size: 18px;
+        font-size: 14px;
+        text-align: center;
         font-family: Verdana, Geneva, Tahoma;
         font-weight: bold;
         font-family: 'Poppins', sans-serif;
         color: rgba(223, 105, 81, 1);
     }
     .content .left h3 {
-        width: 80%;
+        width: 100%;
+        text-align: center;
         color: #181E4B;
-        font-size: 60px;
+        font-size: 30px;
         font-weight: bold;
-        margin: 20px 0 20px 5px;
+        margin: 20px 0;
         font-family: 'Volkhov', serif;
+    }
+    .content .left p:nth-child(3) {
+        width: 100%;
+        margin: 145px 0 30px;
     }
     .content .left button:nth-child(4) {
         font-size: 13px;
@@ -1141,11 +1148,11 @@ nav ul li:hover {
         z-index: 50;
         position: absolute;
         top: 61%;
-        margin: 0 65px 0 20px;
+        margin: -70px 40px 0 20px;
     }
     .comments .cd .card1, .comments .cd .card2 {
-        padding: 0 30px 30px;
-        margin: 95px 20px 0 65px;
+        padding: 30px 30px 30px;
+        margin: 20px 20px 0 40px;
         border-radius: 20px;
         border: 1px solid #bad3d3;
         background-color: #fffafa;
@@ -1269,13 +1276,26 @@ nav ul li:hover {
         font-size: 50px;
         font-weight: 600;
     }
+    .footer ul {
+        text-align: center;
+    }
+    .footer ul p {
+        text-align: left;
+    }
     .footer ul li:hover {
         transform: translateX(3%);
+    }
+    .footer .contact-us {
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
     }
     .footer .social {
         display: flex;
         justify-content: space-between;
-        padding: 10px;
+        padding: 0 0 10px;
         width: 40%;
     }
     .footer .contact-us .apps {
@@ -1284,6 +1304,15 @@ nav ul li:hover {
         align-items: center;
         cursor: pointer;
         width: 100%;
+    }
+    .footer .contact-us .apps span {
+        padding: 10px 25px;
+    }
+    .footer .contact-us .apps span p {
+        text-align: left;
+    }
+    .end {
+        padding: 0 0 80px;
     }
 }
 

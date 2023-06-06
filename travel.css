@@ -1306,11 +1306,14 @@ nav ul li:hover {
         width: 100%;
     }
     .footer .contact-us .apps span {
-        padding: 10px 25px;
+        padding: 10px 15px;
     }
     .footer .contact-us .apps span p {
         text-align: left;
         font-size: 14px;
+    }
+    .footer .contact-us .apps span p .download-app {
+        font-size: 11px;
     }
     .end {
         padding: 0 0 30px;

@@ -854,6 +854,12 @@ nav ul li:hover {
     color: #5E6282;
     padding: 50px 0 80px;
 }
+.developed {
+    color: black;
+    text-align: center;
+    font: 13px;
+    padding: 0 0 10px;
+}
 
 
 
@@ -1318,6 +1324,12 @@ nav ul li:hover {
     .end {
         padding: 0 0 30px;
     }
+    .developed {
+        color: black;
+        text-align: center;
+        font: 13px;
+         padding: 0 0 10px;
+    }
 }
 
 /* small lap */
@@ -1558,5 +1570,11 @@ nav ul li:hover {
         color: #5E6282;
         padding: 0 0 20px 10px;
         font-family: 'Poppins', sans-serif;
+    }
+    .developed {
+        color: black;
+        text-align: center;
+        font: 13px;
+         padding: 0 0 10px;
     }
 }

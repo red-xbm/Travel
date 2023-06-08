@@ -860,7 +860,11 @@ nav ul li:hover {
     font: 13px;
     padding: 0 0 10px;
 }
-
+.developed a {
+    text-decoration: none;
+    border-bottom: blueviolet 1px solid;
+    color: black;
+}
 
 
 /* phone */
